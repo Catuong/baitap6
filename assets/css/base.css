@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #faf5ef;
+    color: var(--body-color);
+    line-height: 1.875;
+    font-family: 'Inter', sans-serif;
+  }
+ 
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+   button {
+    font: inherit;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ion-icon {
+    font-size: 24px;
+  }
+  
+  /* Select elements which have name="checkmark-circle"
+  [name="checkmark-circle"],
+  [name="checkmark"] {
+    color: var(--success-color);
+  }
+  
+  [name="star"] {
+    color: #fea250;
+  } */
+  

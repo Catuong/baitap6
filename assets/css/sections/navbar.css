@@ -1,0 +1,55 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2.5rem;
+    color: var(--text-color-paragraph-light, #897C76);
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .bexon{color: var(--text-color-heading, #110804);
+  
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px; 
+    letter-spacing: -0.56px;
+  
+  }
+ .navbar-menu ion-icon{
+  font-size: 28px;
+ }
+  
+  .navbar-menu {
+    display: none;
+  }
+  
+  @media (max-width: 1024px) {
+    .nav-list {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .nav-list {
+      display: none;
+    }
+    .navbar-menu {
+      display: block;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  
+  
+ 
+  
+  

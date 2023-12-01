@@ -1,0 +1,63 @@
+.portfolio-title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.portfolio-title h2{
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.portfolio-title p{
+    color: #fe7e41;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+}
+.webdesign{
+    margin-top: 20px;
+}
+.webdesign h3{
+font-size: 22px;
+font-family: 'Inter', sans-serif;
+}
+.webdesign p{
+    width: 470px;
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+}
+.weddev-logo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.dev, .logo{
+    display: flex;
+    flex-direction: column;
+    gap:10px; 
+}
+.weddev-logo p{
+    width: 358px;
+}
+.rectangle21{
+    width: 100%;
+}
+.rectangle22{
+    width: 100%;
+}
+@media (max-width: 640px) {
+    .portfolio-title h2{
+      font-size: 25px;
+    }
+    .portfolio-title p{
+        display: none;
+    }
+    .weddev-logo{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .webdesign p{
+        width: 300px;
+    }
+    }

@@ -1,0 +1,134 @@
+
+.testimonial{
+    font-family: 'Inter', sans-serif;
+}
+.testimonial-title p{
+    color:  #A89F94;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.testimonial-title h2{
+    width: 385px;
+    color: var(--text-color-heading, #110804);
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.8px; 
+ }
+.testimonial-profile1,.testimonial-profile2 {
+    display: flex;
+    gap: 50px;
+    
+}
+.prolife-discreption{
+    width: 334px;
+    color:  #4B423E;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.testimonial-vector{
+    display: flex;
+    gap:100px;
+} 
+.testimonial-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 70px;
+    border-bottom: 70px;
+
+}
+.container-detail{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin-top: 70px;
+}
+.vector{
+    width: 100%;
+}
+   .testimonial-button{
+    padding: 30px;
+   }
+  .button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  } 
+  .testimonial-line{
+    padding: 70px;
+    text-align: center;
+  }
+.testimonial-btn-prev {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 2px solid ;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-btn-next{
+width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #FE7E41;
+  border: 2px solid #FE7E41;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  .testimonial-btn-next:hover,
+  .testimonial-btn-prev:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .testimonial-btn-next ion-icon,
+  .testimonial-btn-prev ion-icon {
+    font-size: 1.875rem;
+  } 
+
+  @media (max-width: 640px) {
+    .testimonial-title h2{
+      width: 285px;
+      font-size: 30px;
+   }
+   .testimonial-profile1{
+    display: flex;
+   }
+   .testimonial-profile2{
+    display: none;
+   }
+   .testimonial-profile1{
+    display: flex;
+    gap:10px;
+   }
+   .testimonial-btn-prev {
+    width: 2rem;
+    height: 2rem;}
+   .testimonial-btn-next{
+    width: 2rem;
+      height: 2rem;}
+    .testimonial-button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      }
+      .testimonial-line{
+        padding: 20px;
+      }
+      .container-detail{
+        display: flex;
+    }
+      }
